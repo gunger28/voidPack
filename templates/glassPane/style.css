@@ -1,22 +1,19 @@
-body {
-  background-color: black;
-}
-
-.backer {
+.mainElement {
   z-index: 10;
   position: relative;
   width: 370px;
   height: 600px;
   margin: auto auto;
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  border: 1px solid #ffffff36;
+  border: 2px solid #ffffff36;
   border-radius: 24px;
 }
 
-.backer .back_circle {
+.mainElement .back_circle {
   z-index: 1;
   position: relative;
   background-color: #ff5e00;
@@ -27,7 +24,7 @@ body {
   border-radius: 100%;
 }
 
-.backer .glass_main {
+.mainElement .glass_main {
   z-index: 10;
   position: absolute;
   display: -webkit-box;
@@ -40,11 +37,11 @@ body {
           backdrop-filter: blur(20px);
 }
 
-.backer .glass_main .text {
+.mainElement .glass_main .text {
   margin: auto auto;
   font-size: 40px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
-/*# sourceMappingURL=glass.css.map */
+/*# sourceMappingURL=style.css.map */
